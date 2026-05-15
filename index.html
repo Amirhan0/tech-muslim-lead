@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tech Muslim Leads — закрытое сообщество senior-разработчиков. Онлайн-митапы, разборы кейсов и Q&A."
+    />
+    <title>Tech Muslim Leads — Senior Dev Community</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="gradient-bg" aria-hidden="true"></div>
+
+    <header class="header">
+      <div class="container header__inner">
+        <a href="#" class="logo">TML</a>
+        <nav class="nav" aria-label="Основная навигация">
+          <a href="#about" class="nav__link">О сообществе</a>
+          <a href="#why" class="nav__link">Преимущества</a>
+          <a href="#how" class="nav__link">Как это работает</a>
+        </nav>
+        <a
+          href="https://t.me/ameerqan"
+          class="btn btn--sm header__cta"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Вступить
+        </a>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section">
+        <div class="container hero__content">
+          <div class="badge reveal">Закрытое tech-сообщество</div>
+          <h1 class="hero__title reveal reveal--delay-1">
+            Tech Muslim<br /><span class="text-accent">Leads</span>
+          </h1>
+          <p class="hero__subtitle reveal reveal--delay-2">
+            Сообщество senior-разработчиков, где мы делимся опытом, разбираем
+            реальные кейсы и растём вместе
+          </p>
+          <div class="hero__actions reveal reveal--delay-3">
+            <a
+              href="https://t.me/ameerqan"
+              class="btn btn--primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M21 5L2 12.5l7 1M21 5l-2.5 15L9 13.5M21 5L9 13.5m0 0V19l3.5-3.5"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Присоединиться в Telegram
+            </a>
+            <span class="hero__note">3+ года опыта · по приглашению</span>
+          </div>
+        </div>
+        <div class="hero__visual reveal reveal--delay-2" aria-hidden="true">
+          <div class="orb orb--1"></div>
+          <div class="orb orb--2"></div>
+          <div class="grid-lines"></div>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-label">О сообществе</span>
+            <h2 class="section-title">Умный клуб, не массовый чат</h2>
+          </div>
+          <div class="about__grid">
+            <article class="card reveal">
+              <div class="card__icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="card__title">Закрытое комьюнити</h3>
+              <p class="card__text">
+                Отобранное пространство для разработчиков, которые ценят глубину
+                обсуждений и качество контента — без шума и спама.
+              </p>
+            </article>
+            <article class="card reveal reveal--delay-1">
+              <div class="card__icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="card__title">Senior-уровень</h3>
+              <p class="card__text">
+                Участники с 3+ годами опыта: backend, frontend, mobile, DevOps.
+                Разговоры на уровне архитектуры и продакшена.
+              </p>
+            </article>
+            <article class="card reveal reveal--delay-2">
+              <div class="card__icon">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path
+                    d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <h3 class="card__title">Онлайн-формат</h3>
+              <p class="card__text">
+                Регулярные voice-митапы, разборы кейсов и Q&A-сессии — всё
+                удалённо, в удобное время.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="why" class="section why">
+        <div class="container">
+          <div class="why__layout">
+            <div class="section-header reveal">
+              <span class="section-label">Почему мы</span>
+              <h2 class="section-title">Зачем присоединяться</h2>
+              <p class="section-desc">
+                Среда, где каждый голос имеет вес, а обмен опытом — осознанный.
+              </p>
+            </div>
+            <ul class="benefits reveal reveal--delay-1">
+              <li class="benefit">
+                <span class="benefit__num">01</span>
+                <div>
+                  <h3 class="benefit__title">Живые разборы кейсов</h3>
+                  <p class="benefit__text">
+                    Реальные продакшен-истории: архитектура, инциденты, trade-offs.
+                  </p>
+                </div>
+              </li>
+              <li class="benefit">
+                <span class="benefit__num">02</span>
+                <div>
+                  <h3 class="benefit__title">Доступ к опытным разработчикам</h3>
+                  <p class="benefit__text">
+                    Задавайте вопросы тем, кто уже проходил путь, который вы
+                    проходите сейчас.
+                  </p>
+                </div>
+              </li>
+              <li class="benefit">
+                <span class="benefit__num">03</span>
+                <div>
+                  <h3 class="benefit__title">Нетворкинг</h3>
+                  <p class="benefit__text">
+                    Связи с инженерами из разных стеков и компаний — без
+                    поверхностного small talk.
+                  </p>
+                </div>
+              </li>
+              <li class="benefit">
+                <span class="benefit__num">04</span>
+                <div>
+                  <h3 class="benefit__title">Регулярные voice-митапы</h3>
+                  <p class="benefit__text">
+                    Еженедельные созвоны: доклады, дискуссии, открытый микрофон.
+                  </p>
+                </div>
+              </li>
+              <li class="benefit">
+                <span class="benefit__num">05</span>
+                <div>
+                  <h3 class="benefit__title">Без токсичности и шума</h3>
+                  <p class="benefit__text">
+                    Уважительная культура общения. Только инженерный контент.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="how" class="section how">
+        <div class="container">
+          <div class="section-header section-header--center reveal">
+            <span class="section-label">Процесс</span>
+            <h2 class="section-title">Как это работает</h2>
+          </div>
+          <ol class="steps">
+            <li class="step reveal">
+              <div class="step__marker">1</div>
+              <h3 class="step__title">Join Telegram</h3>
+              <p class="step__text">Подайте заявку и войдите в закрытый канал сообщества.</p>
+            </li>
+            <li class="step reveal reveal--delay-1">
+              <div class="step__marker">2</div>
+              <h3 class="step__title">Attend weekly calls</h3>
+              <p class="step__text">Приходите на еженедельные voice-митапы и Q&A.</p>
+            </li>
+            <li class="step reveal reveal--delay-2">
+              <div class="step__marker">3</div>
+              <h3 class="step__title">Ask / share / learn</h3>
+              <p class="step__text">Делитесь опытом, задавайте вопросы, разбирайте кейсы.</p>
+            </li>
+            <li class="step reveal reveal--delay-3">
+              <div class="step__marker">4</div>
+              <h3 class="step__title">Grow as engineer</h3>
+              <p class="step__text">Растите как инженер вместе с сильным окружением.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section cta">
+        <div class="container">
+          <div class="cta__box reveal">
+            <div class="cta__glow" aria-hidden="true"></div>
+            <h2 class="cta__title">Join the community</h2>
+            <p class="cta__text">
+              Станьте частью закрытого клуба senior-разработчиков. Места
+              ограничены — качество важнее количества.
+            </p>
+            <a
+              href="https://t.me/ameerqan"
+              class="btn btn--primary btn--lg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="btn__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M21 5L2 12.5l7 1M21 5l-2.5 15L9 13.5M21 5L9 13.5m0 0V19l3.5-3.5"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Присоединиться в Telegram
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span class="footer__brand">Tech Muslim Leads</span>
+        <span class="footer__copy">© 2026 · Senior Dev Community</span>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
